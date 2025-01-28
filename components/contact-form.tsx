@@ -25,7 +25,7 @@ export function ContactForm({ className }: React.ComponentProps<typeof Card>) {
   return (
     <Card className={cn("w-full max-w-md", className)}>
       <CardHeader>
-        <CardTitle>Comment pouvons-nous vous aider ?</CardTitle>
+        <CardTitle>Comment puis-je vous aider ?</CardTitle>
         <CardDescription>Besoin d&apos;aide pour votre projet ? Nous sommes là pour vous assister.</CardDescription>
       </CardHeader>
       <form action={formAction}>
